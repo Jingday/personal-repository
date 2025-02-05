@@ -1,0 +1,134 @@
+/* General body styling */
+body {
+    background-color: #f0f8ff; /* Alice blue background */
+    color: #333333; /* Dark gray text color */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #0056b3; /* Darker blue background */
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    color: #ffcc00; /* Gold text for better visibility */
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.navbar a:hover {
+    color: #ffffff; /* White on hover */
+}
+
+/* Header section */
+header {
+    background: linear-gradient(to right, #003d80, #0056b3); /* Dark blue gradient */
+    color: #ffcc00; /* Gold text */
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Content section */
+.container {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 1200px;
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0056b3; /* Dark blue */
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #333333; /* Dark gray text */
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styling */
+button {
+    background-color: #0056b3; /* Dark blue button */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {  
+    background-color: #003d80; /* Darker blue on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: #97a500; /* Dark gray background */
+    color: #ffcc00; /* Gold text */
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+.d-flex {
+    display: flex; /* 启用 Flexbox 布局 */
+    flex-direction: column; /* 设置垂直排列 */
+    align-items: center; /* 垂直居中 */
+    text-align: center; /* 文字水平居中 */
+    gap: 10px; /* 图片和文字之间的间距 */
+}
+
+.img-fluid {
+    max-width: 100%; /* 确保图片自适应 */
+    height: auto; /* 保持比例 */
+    border-radius: 10px; /* 添加圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+}
+.card-img-top {
+    width: 100%; /* 宽度适应父容器 */
+    height: 200px; /* 设置固定高度 */
+    object-fit: cover; /* 保持图片比例，裁剪超出部分 */
+    border-radius: 10px; /* 添加圆角效果（可选） */
+}
+.hobby-img {
+    width: 100%; /* 图片宽度填满容器 */
+    height: 200px; /* 固定高度 */
+    object-fit: cover; /* 裁剪图片以保持比例 */
+    border-radius: 10px; /* 添加圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+}
